@@ -17,8 +17,9 @@ class connectmysql
 $objcon = new connectmysql();
 
 //$con = get_class_vars(get_class($objcon));
+$convar="convar";
 
-$con = $objcon->convar;
+$con = $objcon->$convar;
 
 //  $result = mysqli_query($con,"SELECT * FROM staff");
 ?>  
